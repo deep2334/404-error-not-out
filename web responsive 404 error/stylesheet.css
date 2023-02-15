@@ -1,0 +1,107 @@
+body{
+    width: 845px;
+    max-width: auto;
+    margin: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+.top-container
+{
+    font-size: 120%;
+    font-family: 'Inconsolata', monospace;
+    position: relative;
+    left: 12px;
+    right: 70px;
+}
+img{
+    width: 600px;
+    position: absolute;
+    left: 32px;
+    right: 26px;
+    top: 70px;
+    margin-bottom: 145px;
+}
+h2{
+   font-size: 32px;
+   font-family: 'Montserrat', sans-serif;
+   position: absolute;
+   top: 195px;
+   right: 245px;
+   left: 625px;
+   bottom: 90px;
+   margin-bottom: 125px;
+   margin-left: 78px;
+}
+.content-container{
+    max-width: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    
+}
+.my-button{
+position: absolute;
+width: 216px;
+height: 68px;
+left: 709px;
+top: 415px;
+background: #333333;
+padding: 20px;
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 21px;
+color: white;
+text-transform: uppercase;
+cursor: pointer;
+} 
+.bottom-container{
+    position: absolute;
+    top: 722px;
+    left: 50%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50%;
+}
+.pragraph-container{
+    position: absolute;
+    top: 295px;;
+    left: 645px;
+    bottom: 450px;
+    margin-bottom: 135px;
+    margin-left: 60px;
+    margin-right: 90px;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+@media screen and(max-width: 520px) {
+    .content-container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .pragraph-container{
+        position: absolute;
+        width: 328px;
+        height: 81px;
+        left: 23px;
+        top: 579px;
+    }
+    .my-button{
+        position: absolute;
+       width: 216px;
+        height: 68px;
+        left: 24px;
+        top: 726px;
+    }
+l
+    .bottom-container{
+        margin-top: auto;
+    }
+}
+    
+
+
